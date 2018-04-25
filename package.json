@@ -1,0 +1,27 @@
+{
+  "name": "cotinga",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "node ./dist/example/index.js",
+    "build": "tsc",
+    "dev": "tsc --watch & node ./dist/example/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skrylnikov/cotingajs.git"
+  },
+  "author": "Dmitry Skrylnikov <dskrylnikov@vigo.ru>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/skrylnikov/cotingajs/issues"
+  },
+  "homepage": "https://github.com/skrylnikov/cotingajs#readme",
+  "devDependencies": {
+    "@types/node": "^9.6.6",
+    "typescript": "^2.8.3"
+  }
+}
