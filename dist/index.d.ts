@@ -1,4 +1,5 @@
 declare const _default: {
-    registerModule: (patch: string) => void;
+    registerModule: <Input, Output>(patch: string) => (data: Input) => Promise<Output>;
+    initModule: <Input, Output>(fn: (data: Input) => Output) => void;
 };
 export default _default;
